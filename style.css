@@ -104,7 +104,7 @@ body {
 
 .container{
     height: auto;
-    width: 70%;
+    max-width: 70%;
     margin:0 auto;
 }
 
@@ -163,7 +163,8 @@ header{
 
 .banner{
     background-color: #202140;
-    height: 680px;
+    height:auto;
+    min-height: 680px;
     position: relative;
 }
 

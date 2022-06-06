@@ -1,0 +1,499 @@
+
+@media  screen and (max-width:576px) {
+     
+    .join-now-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .join-now-content{
+        width:100%;
+    }
+
+    .join-now .feedback{
+        width:100%;
+    }
+
+    .join-now .feedback-box{
+        width:100%;
+        height:300px;  
+    }
+
+    .cool-features .features-grid{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: auto  ;
+        justify-content: center;
+        align-items: center;
+        grid-gap:20px;
+        margin-top: 10px;
+        text-align: center;
+    } 
+
+    .feedback .image img{
+        margin-top: 10px ;
+        margin-left:-166px;
+    }
+
+    .feedback .details{
+        left:114px;
+        text-align: left;
+    }
+    .feedback .far{
+        top:116px;
+        text-align:left;
+    }
+
+    .life-changing-box .life-changing-img{
+        height: 374px;
+        width: 330px;
+    }
+
+    .email-subscription input[type="text"]{
+        width: 50%;
+    }
+
+    .email-subscription input[type="submit"]{
+        position: absolute;
+        right:10px;
+    }
+
+    .banner-slant{
+        position: absolute;
+        width: calc(100% + 2px);
+        height: 77px;
+        bottom: -412px;
+        background-size: cover;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+    .banner .banner-image {
+        height: 35px;
+    }
+
+    .life-changing-app-box .life-changing-app-img{
+        height: 400px;
+        width: 310px;
+    }
+
+    .banner{
+        height: 764px;
+    }
+
+    .logo-flex{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .logo-flex .img-logo{
+        height: 70px;
+        width:90px;
+    }
+
+
+
+    .navbar{
+        visibility: hidden;
+    }
+
+    .feedback .image img{
+        margin-top: 10px ;
+        margin-left:12px;
+    }
+
+    .feedback .details{
+        left:114px;
+        text-align: left;
+    }
+    .feedback .far{
+        top:116px;
+        text-align:left;
+    }
+  
+    .life-changing-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    .life-changing-content{
+        width:100%; 
+    }
+
+    .life-changing .life-changing-box{
+        width:100%;
+       
+    }
+
+    .life-changing-box .life-changing-img{
+      width: 100%;
+    }
+
+    .life-changing-app-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .life-changing-app-content{
+        width:100%; 
+    }
+
+    .life-changing-app .life-changing-app-box{
+        width:100%;
+       
+    }
+
+    .life-changing-app-box .life-changing-app-img{
+        width: 100%;
+    }
+
+    .banner-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-image{
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .banner-image img{
+        width:100%;
+    }
+
+    .banner-content{
+        width:100%;
+        margin-top:200px
+    }
+
+    
+
+    .logos{
+        padding-top: 67px;
+    }
+
+    .button-free-templates{
+        display: none;
+    }
+
+    .pricing .pricing-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing .personal{
+        width: 100%;
+    }
+
+    .pricing .first-enterprise{  
+        width: 100%;
+    }
+
+    .pricing .second-enterprise{  
+        width: 100%;
+    }
+
+    .blog{
+        padding-bottom: 40px;
+    }
+
+    .blog .blog-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .blog .blog-flex-items{
+        height:470px;
+        width:90%;
+    }
+
+    .blog .blog-flex-items img{
+        height:210px;
+        width:100%;
+    }
+    .footer .footer-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer .about{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .footer .about .about-content p{
+        color: var(--text-grey);
+    }
+    
+    .footer .navigations{
+        display: inline-block;
+        width:100%;
+    }
+   
+}
+
+
+@media  screen and  (min-width:576px) and (max-width:768px) {
+
+    .navbar{
+        visibility: hidden;
+    }
+
+    .join-now{
+        text-align: center;
+    }
+
+    .join-now-content{
+        width:360px;
+        
+    }
+
+    .join-now{
+        text-align: left;
+    }
+
+    .banner-slant{
+        width:100%;
+        height:256px;
+    }
+  
+    .join-now-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .join-now-content{
+        width:100%;
+    }
+
+    .join-now .feedback{
+        width:100%;
+    }
+
+    .join-now .feedback-box{
+        width:100%;
+        height:300px;  
+    }
+
+    .feedback .image img{
+        margin-top: 10px ;
+        margin-left:12px;
+    }
+
+    .feedback .details{
+        left:114px;
+        text-align: left;
+    }
+    .feedback .far{
+        top:116px;
+        text-align:left;
+    }
+  
+    .life-changing-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .life-changing-content{
+        width:100%; 
+    }
+
+    .life-changing .life-changing-box{
+        width:100%;
+       
+    }
+
+    .life-changing-box .life-changing-img{
+      width: 100%;
+    }
+
+    .life-changing-app-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .life-changing-app-content{
+        width:100%; 
+    }
+
+    .life-changing-app .life-changing-app-box{
+        width:100%;
+       
+    }
+
+    .life-changing-app-box .life-changing-app-img{
+        width: 100%;
+    }
+
+    .banner-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-image{
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .banner-image img{
+        width:100%;
+    }
+
+    .banner-content{
+        width:100%;
+        margin-top:200px
+    }
+
+    .banner-slant{
+        width:100%
+    }
+
+    .banner{
+        height: 915px;
+    }
+
+    .logos{
+        padding-top: 67px;
+    }
+
+    .button-free-templates{
+        display: none;
+    }
+
+    .pricing .pricing-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing .personal{
+        width: 100%;
+    }
+
+    .pricing .first-enterprise{  
+        width: 100%;
+    }
+
+    .pricing .second-enterprise{  
+        width: 100%;
+    }
+
+    .blog{
+        padding-bottom: 40px;
+    }
+
+    .blog .blog-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .blog .blog-flex-items{
+        height:470px;
+        width:90%;
+    }
+
+    .blog .blog-flex-items img{
+        height:210px;
+        width:100%;
+    }
+    .footer .footer-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer .about{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .footer .about .about-content p{
+        color: var(--text-grey);
+    }
+    
+    .footer .navigations{
+        display: inline-block;
+        width:100%;
+    }
+}
+
+@media  screen and  (min-width:768px) and (max-width:1200px) {
+     .banner{
+         height: 625px;
+     }
+
+
+    .banner-flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .banner-content{
+        display: inline-block;
+        color: var(--text-white);
+        width:40%;
+        margin-top: 184px;
+    }
+
+    .banner-image{
+        width:60%;
+        display: inline-block;
+        margin-top:184px;
+        z-index: 1;
+    }
+
+    .email-subscription input[type="text"]{
+        width: 40%;
+    }
+
+    .email-subscription input[type="submit"]{
+        position: absolute;
+        right:10px;
+    }
+
+    .banner-slant{
+        height:200px;
+    }
+
+    .join-now .feedback-box {
+        width: 400px;
+    }
+
+    .life-changing-box .life-changing-img {
+        height: 466px;
+        width: 400px;
+
+    }
+    
+    .life-changing-app-box .life-changing-app-img {
+        height: 466px;
+        width: 400px;
+    }
+
+    .pricing .first-enterprise {
+        height: 600px;
+    }
+    
+    .blog .blog-flex-items{
+        height:518px;
+    }
+}
+
+
+

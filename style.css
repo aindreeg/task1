@@ -114,6 +114,7 @@ body {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    z-index: 1;
 }
 
 nav ul{
@@ -160,6 +161,7 @@ header{
 .banner{
     background-color: #202140;
     height: 680px;
+    position: relative;
 }
 
 .banner-flex{
@@ -231,8 +233,9 @@ header{
 .banner-slant{
     height:248px;
     width:100%;
-    position: relative;
-    bottom:170px;
+    position: absolute;
+    bottom:-2px;
+    right:0;
 }
 
 .logos{

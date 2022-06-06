@@ -61,15 +61,25 @@
 
     .banner .banner-image {
         height: 35px;
+        margin-top: 40px;
+    }
+
+    .banner{
+        height: 764px;
+    }
+
+    .banner-image img{
+        width:100%;
+    }
+
+    .banner-content{
+        width:100%;
+        margin-top:200px
     }
 
     .life-changing-app-box .life-changing-app-img{
         height: 400px;
         width: 310px;
-    }
-
-    .banner{
-        height: 764px;
     }
 
     .logo-flex{
@@ -82,7 +92,7 @@
 
     .logo-flex .img-logo{
         height: 70px;
-        width:126px;
+        width:90px;
     }
 
     .navbar{
@@ -146,19 +156,6 @@
         flex-direction: column;
     }
 
-    .banner-image{
-        margin-top: 40px;
-        margin-left: -50px;
-    }
-
-    .banner-image img{
-        width:100%;
-    }
-
-    .banner-content{
-        width:100%;
-        margin-top:200px
-    }
 
     .logos{
         padding-top: 67px;
@@ -223,6 +220,15 @@
     .footer .navigations{
         display: inline-block;
         width:100%;
+    }
+
+    .toggle-menu{
+        position: absolute;
+        top: 17px;
+        right: 68px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 1;    
     }
    
 }
@@ -406,6 +412,15 @@
         display: inline-block;
         width:100%;
     }
+
+    .toggle-menu{
+        position: absolute;
+        top: 17px;
+        right: 68px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 1;    
+    }
 }
 
 @media  screen and  (min-width:768px) and (max-width:992px) {
@@ -466,6 +481,15 @@
     
     .blog .blog-flex-items{
         height:518px;
+    }
+
+    .toggle-menu{
+        position: absolute;
+        top: 17px;
+        right: 68px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 1;    
     }
 }
 
@@ -538,4 +562,11 @@
     .email-subscription{
         width:110%;
     }
+}
+
+@media  screen and  (min-width:756px) {
+
+    .toggle-menu{
+        visibility: hidden;
+      }
 }
